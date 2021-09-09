@@ -1,12 +1,12 @@
 import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
-import { IWidgetModel } from './widget.model';
-import { BodyComponent } from './widgets/body/body.component';
-import { CardComponent } from './widgets/card/card.component';
-import { FileUploadComponent } from './widgets/file-upload/file-upload.component';
-import { FooterComponent } from './widgets/footer/footer.component';
-import { HeaderComponent } from './widgets/header/header.component';
+import { IWidgetModel } from '../interfaces/widget.model';
+import { BodyComponent } from '../widgets/body/body.component';
+import { CardComponent } from '../widgets/card/card.component';
+import { FileUploadComponent } from '../widgets/file-upload/file-upload.component';
+import { FooterComponent } from '../widgets/footer/footer.component';
+import { HeaderComponent } from '../widgets/header/header.component';
 
 @Injectable({
   providedIn: 'root',

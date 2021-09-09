@@ -5,7 +5,7 @@ import {
   ViewChild,
   ViewContainerRef,
 } from '@angular/core';
-import { WidgetService } from '../widget.service';
+import { WidgetService } from '../services/widget.service';
 import { AdDirective } from './ad.directives';
 
 @Component({

@@ -1,6 +1,6 @@
 import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 import { Component, OnInit } from '@angular/core';
-import { WidgetService } from '../widget.service';
+import { WidgetService } from '../services/widget.service';
 
 @Component({
   selector: 'app-navbar',

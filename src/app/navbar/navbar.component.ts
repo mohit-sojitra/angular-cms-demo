@@ -10,9 +10,7 @@ import { WidgetService } from '../services/widget.service';
 export class NavbarComponent implements OnInit {
   constructor(public widgetService: WidgetService) {}
 
-  ngOnInit(): void {
-    console.log(this.widgetService.listOfComponent);
-  }
+  ngOnInit(): void {}
   addWidget(widget): void {
     this.widgetService.addWidget(widget);
   }

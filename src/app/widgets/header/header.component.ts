@@ -32,6 +32,7 @@ export class HeaderComponent {
     const dialogRef = this.dialog.open(InputDialogComponent, {
       width: '250px',
       data: this.navLinks[i],
+      disableClose: true,
     });
     dialogRef.afterClosed().subscribe((data) => {
       this.navLinks[i] = data;
